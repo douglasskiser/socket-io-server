@@ -10,5 +10,5 @@ An express and socket-io server starter
 
 ### How do I get set up? ###
 
-* yarn
-* yarn start
+* yarn or npm i
+* yarn start or npm start
