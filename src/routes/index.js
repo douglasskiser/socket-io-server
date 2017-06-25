@@ -1,9 +1,8 @@
 export default app => {
   app.get('/', (req, res) => res.status(200).send(`
-    Hello
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-      var socket = io();
-    </script>
+    <h1>the-socket-project</h1>
+    <div>
+      Status: <span style="color: #a5fc15;">UP</span>
+    </div>
   `));
 }
